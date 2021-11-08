@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>kviz</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/main-style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning sticky-top">
+        <h3>
+            <i class="fa fa-gamepad fa-2x" aria-hidden="true">GAME CENTER</i>
+        </h3>
+        <div class="navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Nejhranější Hry</a>
+                    <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="csgo.html" target="_blank">Counter-Strike</a>
+                        <a class="dropdown-item" href="valorant.html">VALORANT</a>
+                        <a class="dropdown-item" href="rocket-league.html">Rocket League</a>
+                        <a class="dropdown-item" href="fortnite.html">Fortnite</a>
+                        <a class="dropdown-item" href="minecraft.html">Minecraft</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="back">
+                <a href="index.html">
+                <button type="button" class="btn btn-outline-dark">BACK</button>
+              </a>
+              </div>
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <h1 class="text-center display-3 text-warning"><span>KVÍZ</span></h1>
+    </header>
+    <br>
+    <main>
+        <main class="container text-width">
+            <form action="" method="POST">
+
+                <p class="alert alert-warning otazka">Hra, ve které je cílem zabít DRAKA</p>
+                <div class="form-group row">
+                    <div class="col-sm-9">
+                        <br>
+                        <input type="text" class="form-control" name="listina" id="listina" placeholder="Napiš hru">
+                    </div>
+                </div>
+                <p class="alert alert-success odpoved collapse">MINECRAFT</p>
+                <hr>
+
+                <p class="alert alert-warning otazka">Hra s nejvíce toxickou dětskou komunitou</p>
+                <div class="form-group row">
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" name="listina" id="listina"
+                            placeholder="Jen tu hru napiš XD">
+                    </div>
+                </div>
+                <p class="alert alert-success odpoved collapse">FORTNITE</p>
+                <div class="center">
+                </div>
+                <hr>
+                <p class="alert alert-warning otazka">Kolik stojí Phantom ve hře VALORANT</p>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        <input type="number" class="form-control" name="univerzita" min="2700" max="3000" id="CSGO"
+                            value="2769">
+                    </div>
+                </div>
+
+
+
+                <p class="alert alert-success odpoved collapse">2900</p>
+                <hr>
+
+                <p class="alert alert-warning otazka">Nejmenší RANK v Counter-Strike</p>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        <select class="form-control" name="F2P" id="F2P">
+                            <option selected>Global Elite</option>
+                            <option>Master Guardian I</option>
+                            <option>Gold Nova I</option>
+                            <option>Bronze I</option>
+                            <option>Silver I</option>
+                            <option>Iron I</option>
+
+                        </select>
+                    </div>
+                </div>
+                <p class="alert alert-success odpoved collapse">Je to SILVER I</p>
+                <hr>
+                <p class="alert alert-warning otazka">Jak se nazívá zimní mapa ve hře VALORANT</p>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        <select class="form-control" name="kral" id="kral">
+                            <option>Haven</option>
+                            <option>Ice Box</option>
+                            <option selected>Bind</option>
+                            <option>Split</option>
+                            <option>Ascent</option>
+                            <option>Breeze</option>
+                        </select>
+                    </div>
+                </div>
+                <p class="alert alert-success odpoved collapse">ICE BOX</p>
+                <hr>
+                <div class="form-group row">
+                    <div class="offset-sm-2 col-sm-10">
+                        <button type="button" class="btn btn-warning" data-toggle="collapse"
+                            data-target=".odpoved">Vyhodnotit kvíz</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+       <br>
+        <footer class="cointainer-fluid text-light text-center p-3">
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="border-bottom border-warning pb-4 ">Sociální sítě</h4>
+                <p>
+                  <a href="https://www.facebook.com/filip.majvelder.3" target="_blank"><i
+                      class="fa fa-facebook-square fa-3x text-warning " aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/majvelder" target="_blank"><i class="fa fa-instagram fa-3x text-warning "
+                      aria-hidden="true"></i></a>
+                  <a href="https://www.youtube.com/channel/UCjKAQ0ydEUDMlyQWUlVL4RQ" target="_blank"><i
+                      class="fa fa-youtube-play fa-3x text-warning" aria-hidden="true"></i></a>
+                </p>
+              </div>
+            </div>
+          </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

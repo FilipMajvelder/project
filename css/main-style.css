@@ -1,0 +1,47 @@
+header {
+    background-image: url(../background.png);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+main {
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), (253, 253, 253));
+}
+h1 span {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 4px;
+}
+.dark-mode header {
+    background-image: url(../background-black.png) !important;
+}
+.dark-mode {
+    background-image: linear-gradient(to bottom right, rgb(27, 27, 27), rgb(71, 71, 71));
+}
+.dark-mode h1, h2, p {
+    color: rgb(255, 208, 0);
+}
+.dark-mode tr, label {
+    color: rgb(182, 182, 182);
+}
+footer {
+    background-color: rgb(37, 37, 37);
+}
+.dark-mode .card-body {
+    background-color: rgba(92, 92, 92, 0.89);
+    color: rgb(182, 182, 182);
+}
+.dark-mode .card-header {
+    background-color: rgba(41, 41, 41, 0.89);
+    color: rgb(255, 208, 0);
+}
+.dark-mode .card {
+    background-color: rgba(41, 41, 41, 0.89);
+}
+.text-p {
+    color: rgb(12, 12, 12);
+}
+a {
+    color:rgb(0, 0, 0)
+}
+.kviz {
+    margin-left: 2px;
+}
+

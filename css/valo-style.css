@@ -1,0 +1,10 @@
+a {
+    color: black;
+}
+header {
+    background-image: url(../img/valorant/valorant-bg.jpg);
+}
+h1 span {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 4px;
+}
